@@ -25,7 +25,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-linear-to-br from-primary-600 to-primary-800">
-                <Building2 className="h-6 w-6 text-white" />
+                <Building2 className="h-6 w-6 text-primary" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-gray-900">WealthBridge</span>
