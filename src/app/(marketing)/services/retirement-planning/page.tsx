@@ -210,7 +210,7 @@ export default function RetirementPlanningPage() {
       {/* CTA */}
       <section className="py-20 bg-linear-to-r from-green-600 to-emerald-600">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl font-bold mb-6">Plan Your Secure Retirement</h2>
             <p className="text-xl opacity-90 mb-8">
               Start building your retirement strategy with expert guidance.

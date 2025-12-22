@@ -21,7 +21,7 @@ const investmentOptions = [
     color: 'text-blue-600',
     bgColor: 'bg-blue-100',
     features: ['Fractional shares', 'Dividend reinvestment', 'Global markets'],
-    minimum: '$1',
+    minimum: '$100',
     risk: 'Medium-High',
   },
   {

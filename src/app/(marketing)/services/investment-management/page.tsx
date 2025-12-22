@@ -158,9 +158,9 @@ export default function InvestmentManagementPage() {
                                         <div className="flex items-center gap-6">
                                             <div className="text-sm text-gray-600">{option.allocation}</div>
                                             <div className={`px-3 py-1 rounded-full text-sm font-medium ${option.risk === 'Low' ? 'bg-green-100 text-green-800' :
-                                                    option.risk === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
-                                                        option.risk === 'Medium-High' ? 'bg-orange-100 text-orange-800' :
-                                                            'bg-red-100 text-red-800'
+                                                option.risk === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
+                                                    option.risk === 'Medium-High' ? 'bg-orange-100 text-orange-800' :
+                                                        'bg-red-100 text-red-800'
                                                 }`}>
                                                 {option.risk}
                                             </div>
@@ -214,21 +214,23 @@ export default function InvestmentManagementPage() {
             {/* CTA */}
             <section className="py-20 bg-linear-to-r from-blue-600 to-cyan-600">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="max-w-3xl mx-auto text-center">
+                    <div className="max-w-3xl mx-auto text-center text-white">
                         <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
                         <p className="text-xl opacity-90 mb-8">
                             Begin your investment journey with professional management today.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center text-white">
-                            <Link href="/register" className="" >
-                                <Button variant="primary" size="lg">
-                                    Start Investing
-                                </Button>
+                            <Link
+                                href="/register"
+                                className="inline-flex items-center justify-center px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+                            >
+                                Start Investing
                             </Link>
-                            <Link href="/services" >
-                                <Button variant="outline" size="lg">
-                                    Back to Services
-                                </Button>
+                            <Link
+                                href="/services"
+                                className="inline-flex items-center justify-center px-8 py-3 bg-transparent text-white font-semibold rounded-lg border border-white hover:bg-white/10 transition-colors"
+                            >
+                                Back to Services
                             </Link>
                         </div>
                     </div>

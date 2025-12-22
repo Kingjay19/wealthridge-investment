@@ -210,7 +210,7 @@ export default function RiskManagementPage() {
       {/* CTA */}
       <section className="py-20 bg-linear-to-r from-indigo-600 to-blue-600">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center ">
+          <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-3xl font-bold mb-6">Protect Your Financial Future</h2>
             <p className="text-xl opacity-90 mb-8">
               Ensure your financial plan is secure against unexpected events.

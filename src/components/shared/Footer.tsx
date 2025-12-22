@@ -9,10 +9,12 @@ const footerLinks = {
     { name: 'Blog', href: '/blog' },
   ],
   Services: [
-    { name: 'Investment Banking', href: '/services/investment-banking' },
-    { name: 'Wealth Management', href: '/services/wealth-management' },
-    { name: 'Trading Platform', href: '/services/trading' },
-    { name: 'Retirement Planning', href: '/services/retirement' },
+    { name: 'Investment Management', href: '/services/investment-management' },
+    { name: 'Wealth Advisory', href: '/services/wealth-advisory' },
+    { name: 'Tax Optimization', href: '/services/tax-optimization' },
+    { name: 'Retirement Planning', href: '/services/retirement-planning' },
+    { name: 'Education Planning', href: '/services/education-planning' },
+    { name: 'Risk Management', href: '/services/risk-management' },
   ],
   Legal: [
     { name: 'Privacy Policy', href: '/privacy' },

@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/shared/Header'
-import Footer from '@/components/shared/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,6 +11,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'WealthBridge' }],
   viewport: 'width=device-width, initial-scale=1',
   themeColor: '#3b82f6',
+
 }
 
 export default function RootLayout({
@@ -21,15 +20,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} min-h-screen bg-linear-to-b from-gray-50 to-white`}>
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-1">
-            {children}
-          </main>
-          <Footer />
-        </div>
+    <html lang="en">
+      <body className={inter.className}>
+        {children}
       </body>
     </html>
   )
